@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/detail/detail",
+        "pages/add/add",
+        "pages/chart/chart",
+        "pages/mine/mine"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#ffd44c",
+        "navigationBarTitleText": "记账本",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#ffd44c",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+            "pagePath": "pages/detail/detail",
+            "text": "明细",
+            "iconPath": "./images/_detail.png",
+            "selectedIconPath": "./images/detail.png"
+        }, {
+            "pagePath": "pages/add/add",
+            "text": "添加",
+            "iconPath": "./images/_add.png",
+            "selectedIconPath": "./images/add.png"
+        }, {
+            "pagePath": "pages/chart/chart",
+            "text": "图表",
+            "iconPath": "./images/_chart.png",
+            "selectedIconPath": "./images/chart.png"
+        }, {
+            "pagePath": "pages/mine/mine",
+            "text": "我的",
+            "iconPath": "./images/_mine.png",
+            "selectedIconPath": "./images/mine.png"
+        }]
+    },
+
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
